@@ -76,6 +76,7 @@ section {
   justify-content: space-between;
   margin-top: 50px;
   text-align: center;
+  flex-wrap: wrap;
 }
 .plans img {
   padding-bottom: 20px;
@@ -93,22 +94,67 @@ section {
 }
 /* Banner section styles */
 .banner {
-    padding-bottom: 50px;
+  padding-bottom: 130px;
 }
 .banner-items {
-    background-image: url('../images/gradient1.png'), url('../images/watch.png');
-    background-repeat: no-repeat;
-    background-position: center, center;
-    border-radius: 8px;
-    text-align: left;
-    padding-left: 64px;
-    padding-top: 60px;
-    padding-bottom: 60px;
+  background-image: url("../images/gradient1.png"), url("../images/watch.png");
+  background-repeat: no-repeat;
+  background-position: center, center;
+  border-radius: 8px;
+  text-align: left;
+  padding-left: 64px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .banner-title {
-    font-weight: 700;
-font-size: 40px;
-color: #FFFFFF;
-padding-bottom: 24px;
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  padding-bottom: 24px;
 }
 /* footer styles */
+footer {
+  background: #151414;
+  display: flex;
+  padding: 130px 230px;
+  justify-content: space-between;
+  gap: 330px;
+}
+.footer-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #f8f8f8;
+  padding-bottom: 16px;
+}
+.footer-blog {
+  max-width: 485px;
+}
+.footer-blog p {
+  color: #ffffff;
+  padding-bottom: 24px;
+}
+.icons img {
+  padding-right: 17px;
+}
+.footer-form-title {
+  font-weight: 600;
+  font-size: 25px;
+  color: #ffffff;
+  padding-bottom: 30px;
+}
+.email-form {
+  background: #151414;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  padding: 21px 155px 21px 21px;
+}
+.footer-form button {
+  margin-top: 16px;
+  background: #005fac;
+  border-radius: 8px;
+  padding: 20px 36px;
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+}
