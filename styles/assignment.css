@@ -6,6 +6,51 @@ section {
   padding: 130px 200px 0 200px;
 }
 
+/* Nav-bar styles */
+
+.nav-bar {
+  background-color: #005fac;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  margin-left: 12%;
+}
+.logo-title {
+  font-family: 'lobster';
+  font-size: 45px;
+  color: #040128;
+}
+span {
+  font-family: 'lobster';
+  color: #fd6e0a;
+}
+.nav-bar ul {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 5px;
+  font-weight: 500;
+  font-size: 36px;
+  padding-right: 10%;
+}
+.nav-bar li {
+  margin: 5px;
+  list-style: none;
+  margin-right: 15px;
+}
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 5px;
+}
+.nav-bar li a:hover {
+  background-color: white;
+  color: #005fac;
+  border-radius: 5px;
+}
+
 /* Header section styles */
 
 .header {
